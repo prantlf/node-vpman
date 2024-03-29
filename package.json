@@ -1,0 +1,54 @@
+{
+  "name": "vpman",
+  "version": "0.0.1",
+  "description": "Creates or updates the changelog file from commit messages formatted according to Conventional Commits.",
+  "author": {
+    "name": "Ferdinand Prantl",
+    "email": "prantlf@gmail.com",
+    "url": "http://prantl.tk"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/prantlf/node-vpman/blob/master/LICENSE"
+    }
+  ],
+  "homepage": "https://github.com/prantlf/node-vpman#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/node-vpman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prantlf/node-vpman/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "bin": {
+    "vpman": "bin/vpman.js"
+  },
+  "files": [
+    "bin",
+    "install.js"
+  ],
+  "scripts": {
+    "postinstall": "node install.js",
+    "test": "oxlint"
+  },
+  "dependencies": {
+    "grab-github-release": "^0.2.3",
+    "link-bin-executable": "^1.0.2",
+    "newchanges": "^2.0.2"
+  },
+  "devDependencies": {
+    "oxlint": "^0.0.20"
+  },
+  "keywords": [
+    "changes",
+    "changelog",
+    "generate",
+    "conventional"
+  ]
+}

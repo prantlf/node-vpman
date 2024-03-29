@@ -1,0 +1,173 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  grab-github-release:
+    specifier: ^0.2.3
+    version: 0.2.3
+  link-bin-executable:
+    specifier: ^1.0.2
+    version: 1.0.2
+  newchanges:
+    specifier: ^2.0.2
+    version: 2.0.2
+
+devDependencies:
+  oxlint:
+    specifier: ^0.0.20
+    version: 0.0.20
+
+packages:
+
+  /@oxlint/darwin-arm64@0.0.20:
+    resolution: {integrity: sha512-P21sToNCj6+iOZ56aS/tWBuvfW8/vXMqIS4+tZvKspSouj44ln0kw8kDex2ksdjzCa1rsNJChTxOywsymwlNqw==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@oxlint/darwin-x64@0.0.20:
+    resolution: {integrity: sha512-j9jVs+qrVyIg+RR1nN9KAbslAzHxSPM2lVt5tkg5foy7yM7+cjEFrGjR0gzwaxLkTdHEls+edErtnMoBxa7zXQ==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@oxlint/linux-arm64@0.0.20:
+    resolution: {integrity: sha512-F1/FiQdwxHHzD4oWLZasWoTqySpkn+7L+bDn+lZ0j72Nr7Ox1ETSvg65umUunyhsALPXBh0SwuLpSwmw+8SerA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@oxlint/linux-x64@0.0.20:
+    resolution: {integrity: sha512-0HO7oMErbHiKiQqqaIWFmsc2cHrUw1Ob9JGUdjO6sW0aDx+HY03EZ4SCcV9g9/BvFZxDPJ7mhRMQ30imE0aTww==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@oxlint/win32-arm64@0.0.20:
+    resolution: {integrity: sha512-1v+omDkVplcEVJ78fTJMHBCShygGxt6R3hJO4vPZRzDN4uNam+mudh+8rVzasGeZWa778lPkLfjUz5wKXouDgQ==}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@oxlint/win32-x64@0.0.20:
+    resolution: {integrity: sha512-FAC2veucFjl0gZXhl4rmK2aBe1M9J5QR5GI3e6dzQXm0xQQ2C0fGu2MF9lTXZO3nkXNLHJSwriGyAgM/Br43gQ==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /buffer-crc32@0.2.13:
+    resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
+    dev: false
+
+  /debug@4.3.4:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: false
+
+  /fd-slicer@1.1.0:
+    resolution: {integrity: sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==}
+    dependencies:
+      pend: 1.2.0
+    dev: false
+
+  /grab-github-release@0.2.3:
+    resolution: {integrity: sha512-rMjReAcuvnRGtQjTiO35yz5rpQa6V9Ll04VN7eORuVCzpqLmV3gWgr8QPO/XJIFTL065QoRhgLCXEHFb8utSAA==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dependencies:
+      debug: 4.3.4
+      semver: 7.6.0
+      yauzl: 2.10.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /link-bin-executable@1.0.2:
+    resolution: {integrity: sha512-kbTwEUt4pSnWef8NWFPAWrYTggRIrEv50+Pz8aLhQUH1XR+ydruNrney3ue5w02iPRMpmHRuMFBmsDiOGj94fw==}
+    engines: {node: '>=18'}
+    dependencies:
+      debug: 4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /lru-cache@6.0.0:
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
+    engines: {node: '>=10'}
+    dependencies:
+      yallist: 4.0.0
+    dev: false
+
+  /ms@2.1.2:
+    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
+    dev: false
+
+  /newchanges@2.0.2:
+    resolution: {integrity: sha512-gOfz33CM+FxZkD1A51VHvDTQO9VaDoTNZ02CISg0KBTgVMmb+OI1lAnwh0aw5b1yxMBGLpfpghwrWN/4Xi9/wQ==}
+    engines: {node: '>=18'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      grab-github-release: 0.2.3
+      link-bin-executable: 1.0.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /oxlint@0.0.20:
+    resolution: {integrity: sha512-z2A4vtRYemz/t6hKX6s2m/fq905uPeQxqZEWNbFglQIL2otzNsW0B9mh0pqzczlpmDPm36wUZaVJLauMOp/kIg==}
+    engines: {node: '>=14.*'}
+    hasBin: true
+    optionalDependencies:
+      '@oxlint/darwin-arm64': 0.0.20
+      '@oxlint/darwin-x64': 0.0.20
+      '@oxlint/linux-arm64': 0.0.20
+      '@oxlint/linux-x64': 0.0.20
+      '@oxlint/win32-arm64': 0.0.20
+      '@oxlint/win32-x64': 0.0.20
+    dev: true
+
+  /pend@1.2.0:
+    resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
+    dev: false
+
+  /semver@7.6.0:
+    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: false
+
+  /yallist@4.0.0:
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+    dev: false
+
+  /yauzl@2.10.0:
+    resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
+    dependencies:
+      buffer-crc32: 0.2.13
+      fd-slicer: 1.1.0
+    dev: false
