@@ -10,7 +10,7 @@ try {
   const { executable, version } = await grab({
     repository: 'prantlf/vp', targetDirectory: __dirname, unpackExecutable: true
   })
-  console.log('downloaded and unpacked "%s" version %s, renaming to vpman', executable, version)
+  console.log('downloaded and unpacked "%s" version %s, rename to vpman', executable, version)
 
   const windows = process.platform === 'win32'
   const executable2 = join(dirname(executable), windows ? 'vpman.exe' : 'vpman')
