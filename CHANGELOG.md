@@ -1,5 +1,11 @@
 # Changes
 
+## [0.1.1](https://github.com/prantlf/node-vpman/compare/v0.1.0...v0.1.1) (2024-03-31)
+
+### Bug Fixes
+
+* Upgrade dependencies to use download cache ([d2fe627](https://github.com/prantlf/node-vpman/commit/d2fe627ba43d084f9bfb116ce4346f464b7f5b9b))
+
 ## [0.1.0](https://github.com/prantlf/node-vpman/compare/v0.0.1...v0.1.0) (2024-03-29)
 
 ### Features
