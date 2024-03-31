@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   grab-github-release:
-    specifier: ^0.2.3
-    version: 0.2.3
+    specifier: ^1.0.0
+    version: 1.0.0
   link-bin-executable:
     specifier: ^1.0.2
     version: 1.0.2
@@ -17,53 +17,69 @@ dependencies:
 
 devDependencies:
   oxlint:
-    specifier: ^0.0.20
-    version: 0.0.20
+    specifier: ^0.2.15
+    version: 0.2.15
 
 packages:
 
-  /@oxlint/darwin-arm64@0.0.20:
-    resolution: {integrity: sha512-P21sToNCj6+iOZ56aS/tWBuvfW8/vXMqIS4+tZvKspSouj44ln0kw8kDex2ksdjzCa1rsNJChTxOywsymwlNqw==}
+  /@oxlint/darwin-arm64@0.2.15:
+    resolution: {integrity: sha512-oFNk4X3VgVVq1No/wW6UPiBszl46QfqsNloCIzBNMTO1nEyd6FD5RoteTr/0denknFmY+i6/sA6USYMmHGckEA==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@oxlint/darwin-x64@0.0.20:
-    resolution: {integrity: sha512-j9jVs+qrVyIg+RR1nN9KAbslAzHxSPM2lVt5tkg5foy7yM7+cjEFrGjR0gzwaxLkTdHEls+edErtnMoBxa7zXQ==}
+  /@oxlint/darwin-x64@0.2.15:
+    resolution: {integrity: sha512-8fHUfzh0M6G15VM3EaoxAKUZlZ808JHg06ClfJ6WDQAWUiom4cuDnLz/HW2bqWg4hxqeyRKpF9oZKyLlkXJh1Q==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@oxlint/linux-arm64@0.0.20:
-    resolution: {integrity: sha512-F1/FiQdwxHHzD4oWLZasWoTqySpkn+7L+bDn+lZ0j72Nr7Ox1ETSvg65umUunyhsALPXBh0SwuLpSwmw+8SerA==}
+  /@oxlint/linux-arm64-gnu@0.2.15:
+    resolution: {integrity: sha512-QIclcjAskpi7L8ErJ58IqhLQNizClkrYQEt8brPW/IYHm0fNH154OcJXpdm23Zfqc9TljIwklAckuZoEQtUDnQ==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@oxlint/linux-x64@0.0.20:
-    resolution: {integrity: sha512-0HO7oMErbHiKiQqqaIWFmsc2cHrUw1Ob9JGUdjO6sW0aDx+HY03EZ4SCcV9g9/BvFZxDPJ7mhRMQ30imE0aTww==}
+  /@oxlint/linux-arm64-musl@0.2.15:
+    resolution: {integrity: sha512-f7KswNDz1viZN/S6fQmr+47JhVwKLzCyE+L8M5hOJxtlRMlfqn29LCqvjXVfA5geS/BbbCdPbhXaOypuvOx1yA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@oxlint/linux-x64-gnu@0.2.15:
+    resolution: {integrity: sha512-JnI1mkbYl/w1t1ShL053x8l6FoIgtITrxvN0nkFpaJl6FIn4436yGYeYS8pOEpQuf52aWCJDH2vNGa18hEV3Sg==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@oxlint/win32-arm64@0.0.20:
-    resolution: {integrity: sha512-1v+omDkVplcEVJ78fTJMHBCShygGxt6R3hJO4vPZRzDN4uNam+mudh+8rVzasGeZWa778lPkLfjUz5wKXouDgQ==}
+  /@oxlint/linux-x64-musl@0.2.15:
+    resolution: {integrity: sha512-RtATil+QO5kRMK5JYsx5QQERiaKQfLs+NJ/Sd+H4eI1Rdfxc+8JGUuEm6TBlr3hq/tzxif2UiHBbJ3FrDJPRoQ==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@oxlint/win32-arm64@0.2.15:
+    resolution: {integrity: sha512-odewb/0qAh51Zd4bz6aZolYNvD9MBFRCk/ojFd5SWm86QxJKzn3su5CK+egy6rEonD7VZeAK8qK0QAACpDf8YA==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /@oxlint/win32-x64@0.0.20:
-    resolution: {integrity: sha512-FAC2veucFjl0gZXhl4rmK2aBe1M9J5QR5GI3e6dzQXm0xQQ2C0fGu2MF9lTXZO3nkXNLHJSwriGyAgM/Br43gQ==}
+  /@oxlint/win32-x64@0.2.15:
+    resolution: {integrity: sha512-z+jvd7UkWq+eu7ZJ98jAQbThXT1JhXQxa0mttZ/UYHaYH4O/eL2PSA/d1bKj6X2kNPcITomUHBgEcA6kK6Dilw==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -104,6 +120,18 @@ packages:
       - supports-color
     dev: false
 
+  /grab-github-release@1.0.0:
+    resolution: {integrity: sha512-M7KEeUyKJpNwxhvfCxG8ezgWbng6RcI/km3CvVFteqymliF2lY9yAipqRfOdwxRkJ8oC3kbnPXx0IhIG64+kaw==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dependencies:
+      debug: 4.3.4
+      semver: 7.6.0
+      yauzl: 3.1.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /link-bin-executable@1.0.2:
     resolution: {integrity: sha512-kbTwEUt4pSnWef8NWFPAWrYTggRIrEv50+Pz8aLhQUH1XR+ydruNrney3ue5w02iPRMpmHRuMFBmsDiOGj94fw==}
     engines: {node: '>=18'}
@@ -136,17 +164,19 @@ packages:
       - supports-color
     dev: false
 
-  /oxlint@0.0.20:
-    resolution: {integrity: sha512-z2A4vtRYemz/t6hKX6s2m/fq905uPeQxqZEWNbFglQIL2otzNsW0B9mh0pqzczlpmDPm36wUZaVJLauMOp/kIg==}
+  /oxlint@0.2.15:
+    resolution: {integrity: sha512-YDlWV5ak7pKydadA4ifCtT4ymYUhSoWh16DZeDdl0dxewkP9Kh2DvKQ4ep9Yj5YL5ySotj5ITkMjN60GbqMQrw==}
     engines: {node: '>=14.*'}
     hasBin: true
     optionalDependencies:
-      '@oxlint/darwin-arm64': 0.0.20
-      '@oxlint/darwin-x64': 0.0.20
-      '@oxlint/linux-arm64': 0.0.20
-      '@oxlint/linux-x64': 0.0.20
-      '@oxlint/win32-arm64': 0.0.20
-      '@oxlint/win32-x64': 0.0.20
+      '@oxlint/darwin-arm64': 0.2.15
+      '@oxlint/darwin-x64': 0.2.15
+      '@oxlint/linux-arm64-gnu': 0.2.15
+      '@oxlint/linux-arm64-musl': 0.2.15
+      '@oxlint/linux-x64-gnu': 0.2.15
+      '@oxlint/linux-x64-musl': 0.2.15
+      '@oxlint/win32-arm64': 0.2.15
+      '@oxlint/win32-x64': 0.2.15
     dev: true
 
   /pend@1.2.0:
@@ -170,4 +200,12 @@ packages:
     dependencies:
       buffer-crc32: 0.2.13
       fd-slicer: 1.1.0
+    dev: false
+
+  /yauzl@3.1.2:
+    resolution: {integrity: sha512-621iCPgEG1wXViDZS/L3h9F8TgrdQV1eayJlJ8j5A2SZg8OdY/1DLf+VxNeD+q5QbMFEAbjjR8nITj7g4nKa0Q==}
+    engines: {node: '>=12'}
+    dependencies:
+      buffer-crc32: 0.2.13
+      pend: 1.2.0
     dev: false
