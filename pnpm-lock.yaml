@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   grab-github-release:
-    specifier: ^1.0.0
-    version: 1.0.0
+    specifier: ^2.0.0
+    version: 2.0.0
   link-bin-executable:
     specifier: ^1.0.2
     version: 1.0.2
   newchanges:
-    specifier: ^2.0.2
-    version: 2.0.2
+    specifier: ^2.0.4
+    version: 2.0.4
 
 devDependencies:
   oxlint:
@@ -102,26 +102,8 @@ packages:
       ms: 2.1.2
     dev: false
 
-  /fd-slicer@1.1.0:
-    resolution: {integrity: sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==}
-    dependencies:
-      pend: 1.2.0
-    dev: false
-
-  /grab-github-release@0.2.3:
-    resolution: {integrity: sha512-rMjReAcuvnRGtQjTiO35yz5rpQa6V9Ll04VN7eORuVCzpqLmV3gWgr8QPO/XJIFTL065QoRhgLCXEHFb8utSAA==}
-    engines: {node: '>=18'}
-    hasBin: true
-    dependencies:
-      debug: 4.3.4
-      semver: 7.6.0
-      yauzl: 2.10.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
-  /grab-github-release@1.0.0:
-    resolution: {integrity: sha512-M7KEeUyKJpNwxhvfCxG8ezgWbng6RcI/km3CvVFteqymliF2lY9yAipqRfOdwxRkJ8oC3kbnPXx0IhIG64+kaw==}
+  /grab-github-release@2.0.0:
+    resolution: {integrity: sha512-pNMjUyJ6IuRFNNrBX6k6Wa6Zi+1kVX6HcsVFTdYw8GvzFxCGwTsBz6qo0d/cLIlum/A7oMy3oVdtiO3e/wVSqA==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
@@ -152,13 +134,13 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /newchanges@2.0.2:
-    resolution: {integrity: sha512-gOfz33CM+FxZkD1A51VHvDTQO9VaDoTNZ02CISg0KBTgVMmb+OI1lAnwh0aw5b1yxMBGLpfpghwrWN/4Xi9/wQ==}
+  /newchanges@2.0.4:
+    resolution: {integrity: sha512-YDM1UVU5GIdbWjrgtgUEov3sbd2UzA9e0BJqgyeTvETy/vgB4tPUVCx8sQIP0QJtv6aE0PNf5UZYrif1yE+qEw==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      grab-github-release: 0.2.3
+      grab-github-release: 2.0.0
       link-bin-executable: 1.0.2
     transitivePeerDependencies:
       - supports-color
@@ -193,13 +175,6 @@ packages:
 
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
-    dev: false
-
-  /yauzl@2.10.0:
-    resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
-    dependencies:
-      buffer-crc32: 0.2.13
-      fd-slicer: 1.1.0
     dev: false
 
   /yauzl@3.1.2:

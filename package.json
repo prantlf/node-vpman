@@ -38,9 +38,9 @@
     "test": "oxlint"
   },
   "dependencies": {
-    "grab-github-release": "^1.0.0",
+    "grab-github-release": "^2.0.0",
     "link-bin-executable": "^1.0.2",
-    "newchanges": "^2.0.2"
+    "newchanges": "^2.0.4"
   },
   "devDependencies": {
     "oxlint": "^0.2.15"
