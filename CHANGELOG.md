@@ -1,5 +1,11 @@
 # Changes
 
+## [0.1.2](https://github.com/prantlf/node-vpman/compare/v0.1.1...v0.1.2) (2024-04-01)
+
+### Bug Fixes
+
+* Upgrade dependencies to rename cache directory ([72dbb01](https://github.com/prantlf/node-vpman/commit/72dbb01546318378f8ca7870a205e2f7b7921be7))
+
 ## [0.1.1](https://github.com/prantlf/node-vpman/compare/v0.1.0...v0.1.1) (2024-03-31)
 
 ### Bug Fixes
